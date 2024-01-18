@@ -25,3 +25,12 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  .body {
+    display: grid;
+    grid-template-rows: 25px 1fr;
+
+    max-width: 1200px;
+    margin: auto;
+
+  }

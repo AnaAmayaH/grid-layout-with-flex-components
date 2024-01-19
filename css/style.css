@@ -26,11 +26,28 @@ body {
     font-size: 4rem;
   }
 
-  .body {
-    display: grid;
-    grid-template-rows: 25px 1fr;
-
-    max-width: 1200px;
+body {
+    height: 100%;
+     max-width: 1200px;
     margin: auto;
+  }
+
+  .emojis {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .emoji {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    
+  }
+
+   
+  .emoji span.icon {
+    text-align: center;
+    order: -1;
 
   }

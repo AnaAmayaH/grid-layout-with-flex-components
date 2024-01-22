@@ -20,7 +20,10 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin-bottom: auto;
+    margin-top: auto;
+    align-items: center;
+    width: auto;
+  
   }
   
   .icon {
@@ -36,17 +39,22 @@ body {
   .emojis {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 1rem;
+    max-width: 1200px;
+   
+    
   }
 
   .emoji {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap; 
+    
   }
 
   .emoji span.icon {
     text-align: center;
     order: -1;
   }
- 
+
  
